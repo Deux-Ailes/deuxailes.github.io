@@ -6,10 +6,10 @@ export default {
 	},
 	data: () => {
 		return {
-			experienceTitle: 'Years of experience',
-			githubTitle: 'Stars on GitHub',
-			feedbackTitle: 'Positive feedback',
-			projectsTitle: 'Projects completed',
+			experienceTitle: "Années d'expérience professionnelles",
+			codeLine: 'Lignes de code',
+			feedback: 'Satisfaction des collaborateurs',
+			projectEnded: 'Projects complétés',
 		};
 	},
 };
@@ -26,7 +26,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="12"
+					:endAmount="3"
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
@@ -54,7 +54,7 @@ export default {
 				/>
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
-					>{{ githubTitle }}</span
+					>{{ codeLine }}</span
 				>
 			</div>
 
@@ -63,7 +63,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="92"
+					:endAmount="100"
 					:duration="1"
 					suffix="%"
 					:autoinit="true"
@@ -73,7 +73,7 @@ export default {
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
 				>
-					{{ feedbackTitle }}
+					{{ feedback }}
 				</span>
 			</div>
 
@@ -82,7 +82,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="77"
+					:endAmount="12"
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
@@ -91,7 +91,7 @@ export default {
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
 				>
-					{{ projectsTitle }}
+					{{ projectEnded }}
 				</span>
 			</div>
 		</div>

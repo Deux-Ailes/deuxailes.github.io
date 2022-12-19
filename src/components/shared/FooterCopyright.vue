@@ -4,7 +4,7 @@ export default {
 		return {
 			copyrightDate: new Date().getFullYear(),
 			projectName: 'Vue.js & Tailwind CSS Portfolio',
-			author: 'Stoman',
+			author: 'Stoman & Deux-Ailes',
 		};
 	},
 };

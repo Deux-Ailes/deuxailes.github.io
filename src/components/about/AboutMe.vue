@@ -6,12 +6,16 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'Passionné d\'informatique, j\'ai décidé d\'entreprendre mes études dans ce domaine.\n' +
+              'Voulant me perfectionner dans ce domaine, l\'école d\'ingénieur m\'a semblé être un choix évident.\n' +
+              'L\'apprentissage me permet de concrétiser le savoir acquis en cours et l\'employer au profit du savoir-faire.',
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"Au cours de mon expérience professionnelle, j'ai découvert un véritable attrait pour le développement logiciel. \n" +
+              "J'ai donc pris l'initiative de me former et proposer mes premiers logiciels dans le cadre de mon travail. \n" +
+              "Je suis en permanente quête de savoir et j'adore développer mes compétences techniques et sociales.",
 				},
 			],
 		};
@@ -24,7 +28,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
+				src="@/assets/images/profilPicNoBg.png"
 				class="rounded-xl w-96"
 				alt=""
 			/>

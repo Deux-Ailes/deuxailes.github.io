@@ -9,7 +9,7 @@ export default {
 	data: () => {
 		return {
 			projects,
-			projectsHeading: 'Projects Portfolio',
+			projectsHeading: 'Mes projets',
 			selectedCategory: '',
 			searchProject: '',
 		};
@@ -72,7 +72,7 @@ export default {
 					mb-4
 				"
 			>
-				Search projects by title or filter by category
+        Rechercher un projet par titre et/ou catégorie
 			</h3>
 			<div
 				class="
