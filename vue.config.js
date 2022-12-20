@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath:  '/portefolio/'
+    publicPath:  'elliot-clerice.fr'
   };
