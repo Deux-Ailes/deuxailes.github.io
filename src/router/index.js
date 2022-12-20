@@ -133,7 +133,7 @@ const routes = [
 ];
 
 const router = createRouter({
-	history: createWebHistory(process.env.BASE_URL),
+	history: createWebHistory('/portefolio/'),
 	routes,
 	scrollBehavior() {
 		document.getElementById('app').scrollIntoView();
