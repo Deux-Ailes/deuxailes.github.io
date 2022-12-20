@@ -7,6 +7,8 @@ import BackToTop from 'vue-backtotop';
 const feather = require('feather-icons');
 feather.replace();
 
+
+
 createApp(App)
 	.use(router)
 	.use(BackToTop)
@@ -23,3 +25,5 @@ if (
 } else {
 	document.querySelector('body').classList.add('bg-secondary-light');
 }
+
+
