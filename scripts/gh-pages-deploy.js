@@ -17,6 +17,10 @@ const fs = require("fs");
     await execa("rm", ["-r", folderName]);
     await execa("git", ["checkout", "-f", "main"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
+    await execa("echo", ["elliot-clerice.fr",  ">", "CNAME"])
+    await execa("git", ["add", "."]);
+    await execa("git", ["commit", "-m","modif-nom"]);
+    await execa("git", ["push"]);
     console.log("Successfully deployed, check your settings");
   } catch (e) {
     // eslint-disable-next-line no-console
