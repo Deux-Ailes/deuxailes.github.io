@@ -133,6 +133,7 @@ const routes = [
 ];
 
 const router = createRouter({
+	mode: 'hash',
 	history: createWebHistory('/portefolio/'),
 	routes,
 	scrollBehavior() {
@@ -187,7 +188,6 @@ router.beforeEach((to, from, next) => {
 	nearestWithMeta.meta.metaTags
 		.map((tagDef) => {
 			const tag = document.createElement('meta');
-
 			Object.keys(tagDef).forEach((key) => {
 				tag.setAttribute(key, tagDef[key]);
 			});
@@ -199,6 +199,5 @@ router.beforeEach((to, from, next) => {
 		})
 		// Add the meta tags to the document head.
 		.forEach((tag) => document.head.appendChild(tag));
-
 	next();
 });
