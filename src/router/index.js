@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import {createRouter, createWebHashHistory} from 'vue-router';
 import Home from '../views/Home.vue';
 
 const routes = [
@@ -133,8 +133,7 @@ const routes = [
 ];
 
 const router = createRouter({
-	mode: 'hash',
-	history: createWebHistory('/portefolio/'),
+	history: createWebHashHistory(),
 	routes,
 	scrollBehavior() {
 		document.getElementById('app').scrollIntoView();
