@@ -16,7 +16,7 @@ export default {
 					id: 2,
 					name: 'LinkedIn',
 					icon: 'linkedin',
-					url: 'https://twitter.com/realstoman',
+					url: 'https://www.linkedin.com/in/elliot-clerice/',
 				},
 
 			],
