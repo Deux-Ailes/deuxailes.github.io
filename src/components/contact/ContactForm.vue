@@ -18,7 +18,7 @@ export default { components: { Button } };
 					<label
 						class="block text-lg text-primary-dark dark:text-primary-light mb-2"
 						for="name"
-						>Full Name</label
+						>Nom complet</label
 					>
 					<input
 						class="w-full px-5 py-2 border border-gray-300 dark:border-primary-dark border-opacity-50 text-primary-dark dark:text-secondary-light bg-ternary-light dark:bg-ternary-dark rounded-md shadow-sm text-md"
@@ -26,7 +26,7 @@ export default { components: { Button } };
 						name="name"
 						type="text"
 						required=""
-						placeholder="Your Name"
+						placeholder="Nom"
 						aria-label="Name"
 					/>
 				</div>
@@ -42,7 +42,7 @@ export default { components: { Button } };
 						name="email"
 						type="text"
 						required=""
-						placeholder="Your Email"
+						placeholder="Email"
 						aria-label="Email"
 					/>
 				</div>
@@ -50,7 +50,7 @@ export default { components: { Button } };
 					<label
 						class="block text-lg text-primary-dark dark:text-primary-light mb-2"
 						for="subject"
-						>Subject</label
+						>Sujet</label
 					>
 					<input
 						class="w-full px-5 py-2 border border-gray-300 dark:border-primary-dark border-opacity-50 text-primary-dark dark:text-secondary-light bg-ternary-light dark:bg-ternary-dark rounded-md shadow-sm text-md"
@@ -58,7 +58,7 @@ export default { components: { Button } };
 						name="subject"
 						type="text"
 						required=""
-						placeholder="Subject"
+						placeholder="Sujet"
 						aria-label="Subject"
 					/>
 				</div>
@@ -84,7 +84,7 @@ export default { components: { Button } };
 						title="Send Message"
 						class="px-4 py-2.5 text-white tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg duration-500"
 						type="submit"
-						aria-label="Send Message"
+						aria-label="Envoyer"
 					/>
 				</div>
 			</form>

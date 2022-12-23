@@ -13,12 +13,12 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Your Address, Your City, Your Country',
+					name: 'Trélazé, France',
 					icon: 'map-pin',
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
+					name: 'clerice.elliot@outlook.fr',
 					icon: 'mail',
 				},
 				{
