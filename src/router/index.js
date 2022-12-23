@@ -35,8 +35,8 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/rrcx',
-		name: 'RRCX',
+		path: '/projects/single-project',
+		name: 'Single Project',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
@@ -45,74 +45,88 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/Projets/SingleProject.vue'
 			),
 		meta: {
-			title: 'DeuxAiles - Projet',
+			title: 'Deux Ailes - Single Project',
 		},
 	},
 	{
-		path: '/projects/sigl',
+		path: '/RRCX',
+		name: 'RRCX',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/Projets/ProjRRCX.vue'
+			),
+		meta: {
+			title: 'DeuxAiles - RRCX',
+		},
+	},
+	{
+		path: '/SIGL',
 		name: 'SIGL',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/Projets/SingleProject.vue'
+				/* webpackChunkName: "projects" */ '../views/Projets/ProjSIGL.vue'
 				),
 		meta: {
 			title: 'DeuxAiles - Projet',
 		},
 	},
 	{
-		path: '/projects/carnetfacile',
+		path: '/CarnetFacile',
 		name: 'Carnet Facile',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/Projets/SingleProject.vue'
+				/* webpackChunkName: "projects" */ '../views/Projets/ProjCF.vue'
 				),
 		meta: {
 			title: 'DeuxAiles - Projet',
 		},
 	},
 	{
-		path: '/projects/nvh',
+		path: '/NVH',
 		name: 'NVH',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/Projets/SingleProject.vue'
+				/* webpackChunkName: "projects" */ '../views/Projets/ProjNVH.vue'
 				),
 		meta: {
 			title: 'DeuxAiles - Projet',
 		},
 	},
 	{
-		path: '/projects/caracexport',
+		path: '/CaracExport',
 		name: 'CaracExport',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/Projets/SingleProject.vue'
+				/* webpackChunkName: "projects" */ '../views/Projets/ProjCaracExport.vue'
 				),
 		meta: {
 			title: 'DeuxAiles - Projet',
 		},
 	},
 	{
-		path: '/projects/coinapi',
+		path: '/CoinAPI',
 		name: 'Coin API',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/Projets/SingleProject.vue'
+				/* webpackChunkName: "projects" */ '../views/Projets/ProjCoinAPI.vue'
 				),
 		meta: {
 			title: 'DeuxAiles - Projet',

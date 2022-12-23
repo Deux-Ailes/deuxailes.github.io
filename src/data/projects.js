@@ -5,7 +5,7 @@ const projects = [
 	{
 		id: 1,
 		title: 'RRCX',
-		category: 'Logicel',
+		category: 'Logiciel',
 		img: require('@/assets/images/web-project-2.jpg'),
 	},
 	{
