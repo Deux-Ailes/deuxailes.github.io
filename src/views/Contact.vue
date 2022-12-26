@@ -20,12 +20,7 @@ export default {
 					id: 2,
 					name: 'clerice.elliot@outlook.fr',
 					icon: 'mail',
-				},
-				{
-					id: 3,
-					name: '555 8888 888',
-					icon: 'phone',
-				},
+				}
 			],
 		};
 	},
