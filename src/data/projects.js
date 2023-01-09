@@ -16,26 +16,20 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: 'CarnetFacile',
-		category: 'Application Web',
-		img: require('@/assets/images/ui-project-1.jpg'),
-	},
-	{
-		id: 4,
 		title: 'NVH',
 		category: 'Logiciel',
 		img: require('@/assets/images/ui-project-2.jpg'),
 	},
 	{
-		id: 5,
+		id: 4,
 		title: 'CaracExport',
 		category: 'Logiciel',
 		img: require('@/assets/images/mobile-project-1.jpg'),
 	},
 	{
-		id: 6,
+		id: 5,
 		title: 'CoinAPI',
-		category: 'Autre',
+		category: 'Mobile',
 		img: require('@/assets/images/web-project-1.jpg'),
 	},
 ];

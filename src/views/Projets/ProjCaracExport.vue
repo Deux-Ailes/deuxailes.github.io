@@ -48,18 +48,21 @@ export default {
 					{
 						id: 2,
 						title: 'Service',
-						details: 'Création solution informatique',
+						details: 'Qualité',
 					}
 				],
 				objectivesHeading: 'Objectif',
 				objectivesDetails:	"L'exportation de données de tests était dépendante d'une solution externe. Lente et non personnalisable, la création d'une nouvelle solution devenanit indispensable.",
 					technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: 'Outils et Technologies',
 						techs: [
 							'Excel',
 							'VBA',
-							'Python'
+							'Python',
+							'C#',
+							'Visual Studio',
+							'Anaconda'
 						],
 					},
 				],
@@ -68,7 +71,7 @@ export default {
 					{
 						id: 1,
 						details:
-							"Lors de tests de caractérisation de frein, des données sont acquises depuis les capteurs afin d'établir un procès-verbal qui justifie, en fonction des critères, la conformité d'un frein."
+							"Lors de tests de caractérisation de frein, des données sont acquises depuis les capteurs afin d'établir un procès-verbal (PV) qui justifie, en fonction des critères établis par le client, la conformité d'un frein."
 					},
 					{
 						id: 2,
@@ -78,12 +81,12 @@ export default {
 					{
 						id: 3,
 						details:
-							""		
+							"J'ai développé une solution permettant d'analyser chaque test. En fonction de la pièce caractérisée, du frein et du type de caractérisation, les données sont ensuites exportées dans une base de données locale."		
 					},
 					{
 						id: 4,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							"Le logiciel de visualisation vient extraire les données directement depuis la base et va permettre d'afficher ces dernières sous forme de graphes. Des outils statistiques sont à venir pour permettre d'évaluer la répartition des données, indiquer les limites et le 6 sigmas."							
 					},
 				],
 				
