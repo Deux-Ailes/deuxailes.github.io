@@ -28,7 +28,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profilPic.jpeg"
+				src="@/assets/images/P1030410.JPG"
 				class="rounded-xl w-96"
 				alt=""
 			/>
