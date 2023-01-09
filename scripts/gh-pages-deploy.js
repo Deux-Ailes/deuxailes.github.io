@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 
-import { existsSync } from "fs";
 (async () => {
   const { execa } = await import("execa");
+  const { existsSync } = await import("fs");
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     // eslint-disable-next-line no-console
