@@ -70,7 +70,7 @@ export default {
 					{
 						id: 1,
 						details:
-							""
+							"Les nouvelles générations de frein possèdent un frein de parking électrique (dénommé Automated Parking Break ou APB). Contrairement aux freins à main à câble, ces derniers sont pilotés électriquement."
 					},
 					{
 						id: 2,
