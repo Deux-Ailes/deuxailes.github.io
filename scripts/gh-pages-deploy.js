@@ -1,7 +1,8 @@
 /* eslint-disable no-console */
-const execa = require("execa");
-const fs = require("fs");
+
+import { existsSync } from "fs";
 (async () => {
+  const { execa } = await import("execa");
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     // eslint-disable-next-line no-console
@@ -9,7 +10,7 @@ const fs = require("fs");
     await execa("npm", ["install"]);
     await execa("npm", ["run", "build"]);
     // Understand if it's dist or build folder
-    const folderName = fs.existsSync("dist") ? "dist" : "build";
+    const folderName = existsSync("dist") ? "dist" : "build";
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
