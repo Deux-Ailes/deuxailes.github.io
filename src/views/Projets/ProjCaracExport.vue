@@ -88,6 +88,11 @@ export default {
 						details:
 							"Le logiciel de visualisation vient extraire les données directement depuis la base et va permettre d'afficher ces dernières sous forme de graphes. Des outils statistiques sont à venir pour permettre d'évaluer la répartition des données, indiquer les limites et le 6 sigmas."							
 					},
+					{
+						id: 5,
+						details:
+							"De plus, cette solution permet également de comparer les résultats des différents tests effectués sur un même frein, sur des freins similaires ou sur des freins différents. Cela permet d'obtenir une vue d'ensemble des performances d'un frein et de détecter les éventuels problèmes ou défauts de fabrication. Les données peuvent également être utilisées pour établir des tendances à long terme et identifier les tendances émergentes, telles que la variation des performances au fil du temps."
+					},
 				],
 				
 			},
