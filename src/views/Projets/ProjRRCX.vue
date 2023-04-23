@@ -23,22 +23,12 @@ export default {
 			projectImages: [
 				{
 					id: 1,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/ui-project-1.jpg'),
-				},
-				{
-					id: 2,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/web-project-2.jpg'),
-				},
-				{
-					id: 3,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/mobile-project-2.jpg'),
+					title: 'Chariot',
+					img: require('@/assets/images/projets/RRCX.jpeg'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'A propos du client',
 				companyInfos: [
 					{
 						id: 1,
@@ -53,10 +43,10 @@ export default {
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+					"Mettre à jour deux bancs d'essais, informatique et mécanique",
 				technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: 'Outils & Technologies',
 						techs: [
 							'C# WPF .NET 4.8',
 							'Syncfusion',
@@ -72,22 +62,32 @@ export default {
 					{
 						id: 1,
 						details:
-							""
+							"Le projet RRCX consiste en la mise à jour informatique d'un banc de test et de la mise à jour informatique et mécanique de son binôme. Les bancs permettent de tester les fonctions du piston d'un frein et sont équipés de trois chaînes de mesure : Force, Pression et Déplacement."
 					},
 					{
 						id: 2,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							"RRCX est mon projet ingénieur que j'ai mené pendant un an et qui m'a permis de démontrer mes capacités d'ingénieur débutant. J'ai porté plusieurs casquettes au cours de ce projet que je vais détailler ci-dessous."
 					},
 					{
 						id: 3,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							"Chef de projet : Il s'agit du rôle que j'ai occupé tout du long du projet. Depuis septembre 2022 je suis officiellement la personne référente lorsqu'il s'agit de la mise à jour des deux bancs. Mon rôle était donc de planifier le déroulement du projet, comprendre les attentes des utilisateurs et clients, gérer les ressources qui m'étaient attribuées, m'adapter aux contraintes et faire en sorte que le projet soit une réussite."
 					},
 					{
 						id: 4,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							"Ingénieur logiciel : La partie que je vais qualifier de technique s'est déroulée pendant près de 6 mois. Au programme : Création d'un logiciel permettant d'éxécuter des plans d'essais de manière automatique en pilotant deux automates et en acquérant des données issues des chaînes de mesures citées précédemment. Je me suis appuyé sur une méthodologie Agile pour le développement de ma solution afin de proposer aux clients un contenu régulier. "
+					},
+					{
+						id: 5,
+						details:
+							"Ingénieur qualité :"
+					},
+					{
+						id: 6,
+						details:
+							"Formateur : "
 					},
 				],
 				socialSharingsHeading: 'Share This',

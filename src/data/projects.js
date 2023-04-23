@@ -6,31 +6,31 @@ const projects = [
 		id: 1,
 		title: 'RRCX',
 		category: 'Logiciel',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: require('@/assets/images/projets/RRCX.jpeg'),
 	},
 	{
 		id: 2,
 		title: 'SIGL',
 		category: 'Application Web',
-		img: require('@/assets/images/mobile-project-2.jpg'),
+		img: require('@/assets/images/projets/Alternapp.png'),
 	},
 	{
 		id: 3,
 		title: 'NVH',
 		category: 'Logiciel',
-		img: require('@/assets/images/ui-project-2.jpg'),
+		img: require('@/assets/images/projets/NVH.jpeg'),
 	},
 	{
 		id: 4,
 		title: 'CaracExport',
 		category: 'Logiciel',
-		img: require('@/assets/images/mobile-project-1.jpg'),
+		img: require('@/assets/images/web-project-1.jpg'),
 	},
 	{
 		id: 5,
 		title: 'CoinAPI',
 		category: 'Mobile',
-		img: require('@/assets/images/web-project-1.jpg'),
+		img: require('@/assets/images/projets/coinRanking.png'),
 	},
 ];
 
