@@ -19,7 +19,7 @@ export default {
 						class="w-5 text-gray-500 dark:text-gray-400 mr-4"
 					></i>
 					<a
-						href="#"
+						href="mailto:clerice.elliot@outlook.fr?subject=Votre profil m'intéresse!"
 						class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
 						:class="
 							contact.icon === 'mail' || contact.icon === 'phone'

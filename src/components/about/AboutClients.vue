@@ -7,48 +7,28 @@ export default {
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I have worked with',
+			clientsHeading: "Quelques diplômes et certifications que j'ai obtenu",
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					title: "Diplôme d'Ingénieur généraliste - ESEO",
+					img: require('@/assets/images/formations/eseo.jpg'),
 				},
 				{
 					id: 2,
-					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
-				},
-				{
-					id: 3,
-					title: 'Adidas',
-					img: require('@/assets/images/brands/adidas_gray.png'),
+					title: 'DUT GEII',
+					img: require('@/assets/images/formations/geii.jpg'),
 				},
 				{
 					id: 4,
-					title: 'FILA',
-					img: require('@/assets/images/brands/fila_gray.png'),
+					title: 'TOEIC',
+					img: require('@/assets/images/formations/TOEIC_logo.png'),
 				},
 				{
 					id: 5,
-					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
-				},
-				{
-					id: 6,
-					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
-				},
+					title: 'Voltaire',
+					img: require('@/assets/images/formations/voltaire.png'),
+				}
 			],
 		};
 	},

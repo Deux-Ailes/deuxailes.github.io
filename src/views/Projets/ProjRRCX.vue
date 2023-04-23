@@ -17,7 +17,7 @@ export default {
 		return {
 			singleProjectHeader: {
 				singleProjectTitle: 'RRCX',
-				singleProjectDate: '1 Sept 2022',
+				singleProjectDate: '1 Sept 2022 - 1 Sept 2023',
 				singleProjectTag: 'Logiciel / Mecanique',
 			},
 			projectImages: [
@@ -42,24 +42,14 @@ export default {
 				companyInfos: [
 					{
 						id: 1,
-						title: 'Name',
-						details: 'Company Ltd',
+						title: 'Compagnie',
+						details: 'Hitachi Astemo',
 					},
 					{
 						id: 2,
-						title: 'Services',
-						details: 'UI Design & Frontend Development',
-					},
-					{
-						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
-					},
+						title: 'Service',
+						details: 'Qualité',
+					}
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
@@ -68,12 +58,12 @@ export default {
 					{
 						title: 'Tools & Technologies',
 						techs: [
-							'HTML',
-							'CSS',
-							'JavaScript',
-							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
+							'C# WPF .NET 4.8',
+							'Syncfusion',
+							'Specflow',
+							'Excel',
+							'Rexroth',
+							'HBM',
 						],
 					},
 				],
@@ -82,7 +72,7 @@ export default {
 					{
 						id: 1,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							""
 					},
 					{
 						id: 2,

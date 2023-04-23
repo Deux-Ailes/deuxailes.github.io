@@ -75,17 +75,17 @@ export default {
 					{
 						id: 2,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							"Ces freins lors de leur actionnement produisent un bruit. L'étude du bruit et sa perception par l'oreille humaine est un point auquel Hitachi Astemo est particulièrement attaché. Un 'beau' bruit donne une impression de qualité tandis qu'un bruit qui tend vers l'aïgu donne une impression de plus piètre qualité."
 					},
 					{
 						id: 3,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							"Au sein du département de tests, des essais sonores sont effectués. Mon rôle a été de proposer un logiciel permettant de traiter les données de tests, de comparer ces valeurs aux critères du client et, finalement, de produire un PV attestant la conformité (ou non) des résultats."		
 					},
 					{
 						id: 4,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							"Ce projet a été enrichissant car j'ai non seulement eu la casquette de développeur logiciel mais également celle de pilote de projet. En effet, j'ai coordonné la mise à niveau du moyen de mesure, la formation des techniciens amenés à utiliser l'outil et enfin la corrélation entre les mesures du laboratoire de test situé à Drancy et les nôtres. Dorénavant, mes collègues m'appellent l'expert du son bien que je n'ai aucune prétention dans ce domaine."
 					},
 				],
 			},

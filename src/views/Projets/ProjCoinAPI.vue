@@ -17,8 +17,8 @@ export default {
 		return {
 			singleProjectHeader: {
 				singleProjectTitle: 'Coin API',
-				singleProjectDate: '1 Sept 2022',
-				singleProjectTag: 'Logiciel / Mecanique',
+				singleProjectDate: '1 Avril 2022',
+				singleProjectTag: 'Android',
 			},
 			projectImages: [
 				{
@@ -43,37 +43,24 @@ export default {
 					{
 						id: 1,
 						title: 'Name',
-						details: 'Company Ltd',
+						details: 'ESEO',
 					},
 					{
 						id: 2,
 						title: 'Services',
-						details: 'UI Design & Frontend Development',
-					},
-					{
-						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
-					},
+						details: 'Conception application Android',
+					}
 				],
-				objectivesHeading: 'Objective',
+				objectivesHeading: 'Objectifs',
 				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+					'Créer une application Android permettant de récupérer les dernières informations sur des cryptomonnaies',
 				technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: 'Outils & Technologies',
 						techs: [
-							'HTML',
-							'CSS',
-							'JavaScript',
-							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
+							'Java',
+							'Android Studio',
+							'API Open-source'
 						],
 					},
 				],
@@ -82,80 +69,32 @@ export default {
 					{
 						id: 1,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							"Dans le cadre du module Android prodigué à l'ESEO, nous avons pour mission de réaliser en binôme une application Android."
 					},
 					{
 						id: 2,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							"Le principe de cette application était d'appliquer les notions vues en cours (Design pattern MVVM, mise en place de Lazy Loading, usage d'une API)"
 					},
 					{
 						id: 3,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							"Notre approche était de concevoir une application légère pour l'utilisateur, une interface simple et la mise en place de petits détails pratiques pour l'utilisateur comme la possibilité de tirer vers le haut la liste des cryptomonnaies afin de rafraîchir le top 10, la mise en place des raccourcis du swipe left pour retourner sur la page d'origine etc..."
 					},
 					{
 						id: 4,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-					},
-				],
-				socialSharingsHeading: 'Share This',
-				socialSharings: [
-					{
-						id: 1,
-						name: 'Twitter',
-						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
-					},
-					{
-						id: 2,
-						name: 'Instagram',
-						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
-					},
-					{
-						id: 3,
-						name: 'Facebook',
-						icon: 'facebook',
-						url: 'https://facebook.com/',
-					},
-					{
-						id: 4,
-						name: 'LinkedIn',
-						icon: 'linkedin',
-						url: 'https://linkedin.com/',
-					},
-					{
-						id: 5,
-						name: 'Youtube',
-						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
+							"Déjà familier avec l'univers Android, j'ai particulièrement apprécié cette mise en pratique puisque nous avions le champ libre pour la création de cette application. J'ai pu découvrir les joies des échanges avec API et envisage dans mes futurs projets d'inclure ces outils extrêmement utiles et, pourquoi pas, produire la mienne selon les besoins."
 					},
 				],
 			},
 			relatedProject: {
-				relatedProjectsHeading: 'Related Projects',
+				relatedProjectsHeading: 'Projets liés',
 				relatedProjects: [
 					{
 						id: 1,
-						title: 'Mobile UI',
+						title: 'Projet SIGL',
 						img: require('@/assets/images/mobile-project-1.jpg'),
-					},
-					{
-						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
-					},
-					{
-						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
-					},
-					{
-						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
 					},
 				],
 			},
