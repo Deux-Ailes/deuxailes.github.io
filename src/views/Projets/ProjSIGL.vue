@@ -24,56 +24,37 @@ export default {
 				{
 					id: 1,
 					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/ui-project-1.jpg'),
-				},
-				{
-					id: 2,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/web-project-2.jpg'),
-				},
-				{
-					id: 3,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/mobile-project-2.jpg'),
+					img: require('@/assets/images/projets/Alternapp.png'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'À propos',
 				companyInfos: [
 					{
 						id: 1,
-						title: 'Name',
-						details: 'Company Ltd',
+						title: 'Nom',
+						details: 'ESEO',
 					},
 					{
 						id: 2,
-						title: 'Services',
-						details: 'UI Design & Frontend Development',
-					},
-					{
-						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
+						title: 'Matière',
+						details: 'ISI',
 					},
 				],
-				objectivesHeading: 'Objective',
+				objectivesHeading: 'Objectifs',
 				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+					"Dans une équipe de 8 élèves développeurs fonctionnant en méthodologie Agile, le but est de proposer une solution web pour les apprentis, maîtres d'apprentissage et tuteurs pédagogiques de l'ESEO.",	
 				technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: 'Outils & Technologies',
 						techs: [
-							'HTML',
-							'CSS',
-							'JavaScript',
+							'Java',
+							'Spring',
 							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
+							'ElementPlus',
+							'Selenide',
+							'CI/CD',
+							'Gitlab'
 						],
 					},
 				],
@@ -82,22 +63,16 @@ export default {
 					{
 						id: 1,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							"L'objectif d'Alternapp est de proposer une plateforme web pour les apprentis et toutes les personnes impliquées dans le suivi, la notation ou l'intégration de ces derniers. 3 sprints d'environ 2 semaines étaient dédiés à ce projet, soit environ 100h par personne."
 					},
 					{
 						id: 2,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-					},
-					{
+							"Durant ce projet, j'ai porté la casquette de responsable qualité. J'étais en charge notamment de tout l'aspect test front-end et back-end. J'étais également en charge de la conformité entre le cahier de tests et les tests réalisés. J'ai également activement contribué à la rédaction des tests."
+					},{
 						id: 3,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-					},
-					{
-						id: 4,
-						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							"J'ai également contribué au code back-end avec la gestion des end-points. Il s'agissait pour moi d'une totale découverte du framework Spring et du design pattern MVC. Etant déjà familier avec Java, j'ai vite intégré les concepts du framework ce qui m'a permis de travailler efficacement rapidement."
 					},
 				],
 				socialSharingsHeading: 'Share This',

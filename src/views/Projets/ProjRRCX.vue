@@ -82,70 +82,23 @@ export default {
 					{
 						id: 5,
 						details:
-							"Ingénieur qualité :"
+							"Ingénieur qualité : En modifiant les bancs, je modifie les chaînes de mesures, l'acquisition de données etc... Il est donc naturel de valider chaque banc en procédant à une série d'étude type Cg/Cgk, R&r ou bien en menant une comparaison inter-banc. J'ai donc organisé le déroulement des études, analysé les données statistiques et mis en place des plans d'actions selon les écarts rencontrés. C'était une casquette extrêmement enrichissante puisque tout le coeur de métier du service (la qualité) repose sur ces principes d'études."
 					},
 					{
 						id: 6,
 						details:
-							"Formateur : "
+							"Formateur & pérénisation : Mettre à jour des bancs, c'est bien. Péréniser ces retrofits dans le futur, c'est mieux. Pour cela, j'ai prodigué des formations individuelles à chacun des techniciens sur le nouveau logiciel que j'ai conçu. Des modes opératoires ont également été rédigés pour que les futurs techniciens ne soient pas perdus pour effectuer une quelconque action. Du point de vue logiciel, des modes opératoires ont également été rédigés. J'ai de plus conçu une documentation XML complète du logiciel pour que ce dernier puisse être repris facilement."
 					},
 				],
-				socialSharingsHeading: 'Share This',
-				socialSharings: [
-					{
-						id: 1,
-						name: 'Twitter',
-						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
-					},
-					{
-						id: 2,
-						name: 'Instagram',
-						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
-					},
-					{
-						id: 3,
-						name: 'Facebook',
-						icon: 'facebook',
-						url: 'https://facebook.com/',
-					},
-					{
-						id: 4,
-						name: 'LinkedIn',
-						icon: 'linkedin',
-						url: 'https://linkedin.com/',
-					},
-					{
-						id: 5,
-						name: 'Youtube',
-						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
-					},
-				],
+				
 			},
 			relatedProject: {
 				relatedProjectsHeading: 'Related Projects',
 				relatedProjects: [
 					{
 						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
-					},
-					{
-						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
-					},
-					{
-						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
-					},
-					{
-						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
+						title: 'NVH',
+						img: require('@/assets/images/projets/NVH.jpeg'),
 					},
 				],
 			},
